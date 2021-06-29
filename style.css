@@ -16,14 +16,14 @@ body {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px) ;
 }
-.calculator__body > button {
+.calculator__body >button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, 0.75);
 }
-.calculator__body > button:hover{
+.calculator__body >button:hover{
     background-color: rgba(255, 255, 255, 0.9);
 }
 .span-two{
